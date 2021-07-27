@@ -43,7 +43,7 @@ public class CalculatorTest {
 		try {
 			int result = calculator.divison(10, 2);
 
-			assertEquals(4, result);
+			assertEquals(5, result);
 		} catch (Exception e) {
 			e.printStackTrace(System.err);
 		}
